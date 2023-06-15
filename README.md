@@ -55,7 +55,7 @@ labelImg [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
 1. Store a trajectory video files in the folder `input`, then run the file `GetFrame&FPS.py` to get the data about frame number and fps.
 
-   Notes: Video time = number of frames / fps, number of images = number of frames / selected fps.
+   Notes: Video time = number of frames / fps, number of images = number of frames / frame interval.
 
 2. Run the file `Video2ImageByFrame.py` to get image frames in folder path `output`.
 
