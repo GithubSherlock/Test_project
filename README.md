@@ -54,6 +54,7 @@ labelImg [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 ##### Steps
 
 1. Store a trajectory video files in the folder `input`, then run the file `GetFrame&FPS.py` to get the data about frame number and fps.
+   Notes: Video time = number of frames / fps, number of images = number of frames / selected fps.
 2. Run the file `Video2ImageByFrame.py` to get image frames in folder path `output`.
 3. Use LabelImg to tracking pedestrian trajectories from image frames (image ->numbers) and save data as XML files in folder path `annotation`.
 4. Run the file `GenerateIC.py` to generate the data about image coordinates of pedestrian then saved as txt file and XML file in folder path `person_IC`.
