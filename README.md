@@ -64,4 +64,5 @@ labelImg [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 ##### Comments
 
 * [Link of original video file](https://seafile.cloud.uni-hannover.de/f/6976b0dd3f9d4e5aae58/)
+* [Link of XML files about annotation via LabelImg](https://seafile.cloud.uni-hannover.de/f/2f7359669ec54642858f/)
 * Video time = number of frames / fps, number of images = number of frames / frame interval.
