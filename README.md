@@ -33,7 +33,7 @@ pip3 install numpy
 
 ##### matplotlib
 
-The last Python program in this project requires the use of the library [matplotlib](https://matplotlib.org/stable/index.html) to display the frame animation of pedestrian 's trajectory, finally save a animation file as gif in `./output/`.
+The last Python program in this project requires the use of the library [matplotlib](https://matplotlib.org/stable/index.html) to display the frame animation of the pedestrian's trajectory, finally save an animation file as a gif in `./output/`.
 
 ```shell
 pip3 install matplotlib
@@ -57,9 +57,9 @@ labelImg [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
 ##### Steps
 
-1. Store a trajectory video files in the folder `input`, then run the file `build_frame_images.py` to get the data about frame number and fps and to get image frames in folder path `./output/output_frames`.
-2. Use LabelImg to tracking pedestrian trajectories from image frames (image ->numbers) and save data as XML files in folder path `./annotation`.
-3. Run the file `visualizing_pedestrian_trajectory.py` to visualise pedestrian trajectory. Relevant image frames and the gif animation file saved in folder path `./output` .
+1. Store a trajectory video file in the folder `input`, then run the file `build_frame_images.py` to get the data about frame number and fps and to get image frames in folder path `./output/output_frames`.
+2. Use **LabelImg** to track pedestrian trajectories from image frames (image ->numbers) and save data as XML files in folder path `./annotation`.
+3. Run the file `visualizing_pedestrian_trajectory.py` to visualize pedestrian trajectory. Relevant image frames and the gif animation file are saved in the folder path `./output`.
 
 ##### Comments
 
